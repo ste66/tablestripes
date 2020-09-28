@@ -21,3 +21,7 @@ tr:nth-child(odd) {
     background-color: #efefef;
 }
 
+tr:nth-child(3n+1) td:nth-child(2n) {
+    background: #ffbbbb;
+}
+
