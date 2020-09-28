@@ -1,0 +1,23 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: #888888;
+    color: #efefef;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #c0c0c0;
+} 
+
+tr:nth-child(odd) {
+    background-color: #efefef;
+}
+
